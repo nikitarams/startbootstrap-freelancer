@@ -18,9 +18,9 @@
     <link href="css/freelancer.min.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&amp;subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&amp;subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -42,24 +42,35 @@
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand" href="#page-top">Start Bootstrap</a>
+                <div class="navbar-brand">
+                    <a href="#what" id="#" class="logo" data-scroll="what">
+                        <!--<img class="logo-image" src="../img/logo_top.png">!-->
+                    </a>
+                    <div class="language">
+                        <div class="eng flag-container">
+                            <a href=""><img class="eng flag-image" src="../img/eng-flag.jpg"></a>
+                        </div>
+                        <div class="rus flag-container">
+                            <a href="" class=""><img class="rus-flag-image" src="../img/rus-flag.jpg"></a>
+                        </div>
+                    </div>
+                </div>
+
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#portfolio">Portfolio</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#about">About</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#contact">Contact</a>
-                    </li>
+                    <li class="hidden"><a href="#page-top"></a></li>
+                    <li class="menu-item page-scroll"><a href="#what" data-scroll="what">What?</a></li>
+                    <li class="menu-item page-scroll"><a href="#why" data-scroll="why">Why?</a></li>
+                    <li class="menu-item page-scroll"><a href="#how" data-scroll="how">How?</a></li>
+                    <li class="menu-item page-scroll"><a href="#features" data-scroll="product">Product</a></li>
+                    <li class="menu-item page-scroll"><a href="#whitepaper" data-scroll="whitepaper">Whitepaper</a></li>
+                    <li class="menu-item page-scroll"><a href="#ico" data-scroll="ico">ICO</a></li>
+                    <li class="menu-item page-scroll"><a href="#faq" data-scroll="faq">FAQ</a></li>
+                    <li class="menu-item page-scroll"><a href="#team" data-scroll="team">Team</a></li>
+                    <li class="menu-item page-scroll"><a href="#contact" data-scroll="contact">Contact Us</a></li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->

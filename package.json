@@ -14,15 +14,22 @@
     "font-awesome": "^4.6.3",
     "gulp": "^3.9.1",
     "gulp-clean-css": "^2.0.10",
+    "gulp-concat": "^2.6.1",
     "gulp-filter": "^4.0.0",
     "gulp-header": "^1.8.7",
+    "gulp-jshint": "^2.0.4",
     "gulp-less": "^3.1.0",
     "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
     "gulp-uglify": "^1.5.4",
-    "jquery": "^1.11.3"
+    "jquery": "^1.11.3",
+    "jshint": "^2.9.5"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/BlackrockDigital/startbootstrap-freelancer.git"
+  },
+  "dependencies": {
+    "gulp-less": "^3.3.2"
   }
 }
